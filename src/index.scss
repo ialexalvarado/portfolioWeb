@@ -1,0 +1,62 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+  /* Color Theme Swatches in Hex */
+  .ui-colors-primary { color: #7845BF; }
+  .ui-colors-primary-dark { color: #231640; }
+  .ui-colors-secondary { color: #4B3A8C; }
+  .ui-colors-disabled { color: #2A2740; }
+  .ui-colors-dark { color: #0D0D0D; }
+
+  .ui-colors-bg-primary { background-color: #7845BF; }
+  .ui-colors-bg-primary-dark { background-color: #231640; }
+  .ui-colors-bg-secondary { background-color: #4B3A8C; }
+  .ui-colors-bg-disabled { background-color: #2A2740; }
+  .ui-colors-bg-dark { background-color: #0D0D0D; }
+
+  $var-primary-color: #B284BF; 
+  $var-primary-dark: #231640; 
+  $var-secondary: #4B3A8C; 
+  $var-disabled: #2A2740; 
+  $var-dark: #0D0D0D; 
+  
+  /* Color Theme Swatches in RGBA 
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-1-rgba { color: rgba(119, 68, 191, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-2-rgba { color: rgba(34, 21, 63, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-3-rgba { color: rgba(75, 57, 140, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-4-rgba { color: rgba(42, 38, 63, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-5-rgba { color: rgba(12, 12, 12, 1); }
+  
+  /* Color Theme Swatches in HSLA 
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-1-hsla { color: hsla(264, 48, 51, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-2-hsla { color: hsla(258, 49, 16, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-3-hsla { color: hsla(253, 41, 38, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-4-hsla { color: hsla(247, 24, 20, 1); }
+  .Wet-asphalt,-reflection-of-neon-lights,-a-searchlight,-smoke.-Abstract-light-in-a-dark-empty-street-with-smoke,-smog.-Dark-background-scene-of-empty-street,-night-view,-night-city.-5-hsla { color: hsla(0, 0, 5, 1); }. 
+  */
+
+  /* Color Theme Swatches in Hex */
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-1-hex { color: #B284BF; }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-2-hex { color: #4E3473; }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-3-hex { color: #5450BF; }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-4-hex { color: #4946A6; }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-5-hex { color: #1B1D40; }
+
+/* Color Theme Swatches in RGBA */
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-1-rgba { color: rgba(178, 131, 191, 1); }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-2-rgba { color: rgba(77, 51, 114, 1); }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-3-rgba { color: rgba(84, 80, 191, 1); }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-4-rgba { color: rgba(72, 69, 165, 1); }
+.dark-blue-and-purple-empty-brick-wall-texture-pattern-with-bright-spotlights-neon-tubes-and-laser-beams-empty-scene-background-products-display-and-presentation-5-rgba { color: rgba(26, 28, 63, 1); }
+
+
+
+body{
+  font-family: "Manrope";
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: $var-primary-color;
+}
