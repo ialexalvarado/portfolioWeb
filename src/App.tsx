@@ -4,7 +4,45 @@ import AboutMe from "./components/AboutMe";
 import Projects from './components/Projects';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [projects, setProjects] = useState([]);
+  
+  const currentProjects = [
+    ...projects,
+    {
+      projectName:"PokeApi" ,
+      projectDetails:"A single project to request information about Pokemon's and show information retrieved",
+      projectLink:"https://github.com/ialexalvarado/reactBooksApp"
+    },
+    {
+      projectName:"PokeApi" ,
+      projectDetails:"A single project to request information about Pokemon's and show information retrieved",
+      projectLink:"https://github.com/ialexalvarado/reactBooksApp"
+    },
+    {
+      projectName:"PokeApi" ,
+      projectDetails:"A single project to request information about Pokemon's and show information retrieved",
+      projectLink:"https://github.com/ialexalvarado/reactBooksApp"
+    },
+    {
+      projectName:"PokeApi" ,
+      projectDetails:"A single project to request information about Pokemon's and show information retrieved",
+      projectLink:"https://github.com/ialexalvarado/reactBooksApp"
+    },
+    {
+      projectName:"PokeApi" ,
+      projectDetails:"A single project to request information about Pokemon's and show information retrieved",
+      projectLink:"https://github.com/ialexalvarado/reactBooksApp"
+    },
+  ]
+
+  const renderedProjects= currentProjects.map((proj)=>{
+    return (
+      <div className='col-lg-6 col-md-6 col-sm-12' style={{paddingBottom: "30px"}}>
+        <Projects projectName={proj.projectName} projectDetails={proj.projectDetails} projectLink={proj.projectLink}  />
+      </div>
+    )
+  })
+
 
   return (
     <>
@@ -41,12 +79,12 @@ function App() {
           </div>
         </div>
       </nav>
+      <div style={{paddingTop: "110px"}}></div>
       <AboutMe/>
-      <Projects 
-        projectName="PokeApi" 
-        projectDetails="A single project to request information about Pokemon's and show information retrieved"
-        projectLink="https://github.com/ialexalvarado/reactBooksApp"
-        />
+      <h2 className="text-left" style={{paddingBottom:"30px"}} >Projects</h2>
+      <div className='projects-list row'>
+        {renderedProjects}
+      </div>
     </>
   );
 }
