@@ -5,7 +5,7 @@ function Projects({projectName, projectDetails, projectLink}){
                 <img src="/src/assets/rectangle.png" className="projects-mini-image mx-auto" />
             </div>
             <div className="row">
-                <h5>{projectName}</h5>
+                <h5 className="text-left" style={{paddingLeft: "22px"}}>{projectName}</h5>
             </div>
             <div className="row">
                 <p className="text-left" style={{paddingLeft: "22px"}}>{projectDetails}</p>

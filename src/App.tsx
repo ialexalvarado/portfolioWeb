@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import AboutMe from "./components/AboutMe";
 import Projects from './components/Projects';
+import Timeline from './components/Timeline';
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -85,6 +86,7 @@ function App() {
       <div className='projects-list row'>
         {renderedProjects}
       </div>
+      <Timeline/>
     </>
   );
 }
