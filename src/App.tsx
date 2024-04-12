@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
 import AboutMe from "./components/AboutMe";
 import Projects from './components/Projects';
 import Timeline from './components/Timeline';
