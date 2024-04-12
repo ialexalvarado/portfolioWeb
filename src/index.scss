@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
 
-/* Variables */
+/* Variables for timeline */
 
-$background: #252827;
+$backgroundBullet: #7845BF;
 
-$color-primary: #004ffc;
+$color-primary: #4B3A8C;
 $color-light: white;
-$color-dim: #6c6d6d;
+$color-dim: #B284BF;
 $spacing: 50px;
 $radius: 4px;
 
@@ -17,6 +16,8 @@ $line: 4px;
 
 $font-title: 'Saira', sans-serif;
 $font-text: 'Chivo', sans-serif;
+
+/* end variables for timeline */
 
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
@@ -170,16 +171,20 @@ body{
   text-align: left;
 }
 
+
+
+//timeline css
+
 body {
   //background: @background;
-  font-size: 16px;
+  //font-size: 16px;
 }
 
-p {
+.tl-p {
   font-weight: 300;
 }
 
-a { 
+.tl-a { 
   color: $color-dim;
   text-decoration: none;
   text-transform: uppercase;
@@ -193,17 +198,17 @@ a {
   float: right;
 }
 
-a:hover { 
+.tl-a:hover { 
   color: $color-light;
   background: $color-primary;
   border-bottom: .35em solid black;
 }
 
-strong {
+.tl-strong {
   font-weight: 600;
 }
 
-h1 {
+.tl-h1 {
  font-family: $font-title;
  letter-spacing: 1.5px;
  color: $color-light;  
@@ -217,6 +222,7 @@ h1 {
 }
 
 /* Timeline */
+
 
 .timeline {
   border-left: $line solid $color-primary;
@@ -235,20 +241,23 @@ h1 {
   text-align: left;  
   font-weight: 100;  
   max-width: 30%; 
+
+
   
-  h1 {
+  .timeline-title {
    font-family: $font-title;
    letter-spacing: 1.5px;
    font-weight: 100;
    font-size: 1.4em;    
   }
   
-  h2, h3 {
+  .timeline-header, .timeline-subheader {
    font-family: $font-title;
    letter-spacing: 1.5px;
    font-weight: 400;
    font-size: 1.4em;
   }
+
   
   .event {
     border-bottom: 1px dashed fade($color-light, 10%);
@@ -282,7 +291,7 @@ h1 {
     &:after {
       box-shadow: 0 0 0 $dotborder fade($color-primary,100%);    
       left: ($spacing + $line + ($dot * 0.35)) * -1;        
-      background: lighten($background,5%);    
+      background: lighten($backgroundBullet,5%);    
       border-radius: 50%;  
       height: $dot;
       width: $dot;

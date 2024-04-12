@@ -3,6 +3,7 @@ import './App.css';
 import AboutMe from "./components/AboutMe";
 import Projects from './components/Projects';
 import Timeline from './components/Timeline';
+import Skills from './components/Skills';
 
 function App() {
   const [projects, setProjects] = useState([]);
@@ -87,6 +88,7 @@ function App() {
         {renderedProjects}
       </div>
       <Timeline/>
+      <Skills/>
     </>
   );
 }
