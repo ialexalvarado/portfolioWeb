@@ -1,3 +1,6 @@
+import { IconContext } from "react-icons";
+import { DiAngularSimple, DiGithub } from "react-icons/di";
+import { LiaLinkedin } from "react-icons/lia";
 
 function AboutMe(){
     return (<>
@@ -12,8 +15,10 @@ function AboutMe(){
                 <div className="col-lg-4 col-md-4 col-sm-12">
                     <img src="/src/assets/profilephoto.jpeg" alt="Avatar" className="avatar" />
                     <div>
-                    
-                    
+                    <IconContext.Provider value={{ color: "white", size: "2em" }}>
+                        <a href="https://github.com/ialexalvarado" ><DiGithub /></a>
+                        <a href="https://www.linkedin.com/in/ialejandroalvarado" ><LiaLinkedin /></a>
+                    </IconContext.Provider>
                     </div>
                     
                 </div>

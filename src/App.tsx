@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import Timeline from './components/Timeline';
 import Skills from './components/Skills';
 
+let meh="<i className='bi-alarm' />";
+
 function App() {
   const [projects, setProjects] = useState([]);
   
@@ -84,12 +86,14 @@ function App() {
       </nav>
       <div style={{paddingTop: "110px"}}></div>
       <AboutMe/>
+      <Skills/>
+      <Timeline/>
       <h2 className="text-left" style={{paddingBottom:"30px"}} >Projects</h2>
       <div className='projects-list row'>
         {renderedProjects}
       </div>
-      <Timeline/>
-      <Skills/>
+      
+      
     </>
   );
 }

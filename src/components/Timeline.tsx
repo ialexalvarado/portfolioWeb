@@ -2,7 +2,7 @@ function Timeline() {
     return (
         <div className="row">
             <div id="timeline-content">
-                <h1 className="timeline-title">Experience</h1>
+                <h1 className="timeline-title" style={{ textAlign: "left" }}>Experience</h1>
 
                 <ul className="timeline">
                     <li className="event" data-date="Apr 21 - Today">

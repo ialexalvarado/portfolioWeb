@@ -1,124 +1,128 @@
 
 
 import { IconContext } from "react-icons";
-import { DiAngularSimple, DiCss3, DiDocker, DiDotnet, DiGit, DiHtml5, DiJava, DiJavascript, DiJenkins, DiJira, DiMongodb, DiMsqlServer, DiMysql, DiNodejs, DiPostgresql, DiReact } from "react-icons/di";
-import { GrKubernetes } from "react-icons/gr";
+import { DiAngularSimple, DiCss3, DiDocker, DiDotnet, DiGit, DiHtml5, DiJava, DiJavascript, DiJenkins, DiJira, DiMongodb, DiMsqlServer, DiMysql, DiNodejs, DiReact } from "react-icons/di";
 import { SiCouchbase, SiGithubactions, SiGooglecloud, SiIbmcloud, SiKubernetes, SiMicrosoftazure, SiOracle } from "react-icons/si";
 
 function Skills() {
     return (
         <div className="row">
-            <h1>Skills</h1>
-            <i className="bi-alarm" />
-            <p>hello</p>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="row">
-                    <h3>Front-end techs</h3>
+            <h1 style={{ textAlign: "left" }}>Skills</h1>
+            <br/>
+            <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="row">
-                        <IconContext.Provider value={{ color: "white", size: "3em" }}>
-                            <div>
-                                <DiAngularSimple /> Angular
-                            </div>
-                            <div>
-                                <DiReact /> React
-                            </div>
-                            <div>
-                                <DiHtml5 /> Html
-                            </div>
-                            <div>
-                                <DiCss3 /> CSS
-                            </div>
-                            <div>
-                                <DiJavascript /> JavaScript
-                            </div>
-                        </IconContext.Provider>
+                        <h5 style={{ textAlign: "left" }}>Front-end techs</h5>
+                        <div className="row" style={{ textAlign: "left" }}>
+                            <IconContext.Provider value={{ color: "white", size: "3em" }}>
+                                <div>
+                                    <DiAngularSimple />&nbsp;&nbsp;&nbsp;Angular
+                                </div>
+                                <div>
+                                    <DiReact />&nbsp;&nbsp;&nbsp;React
+                                </div>
+                                <div>
+                                    <DiHtml5 />&nbsp;&nbsp;&nbsp;Html
+                                </div>
+                                <div>
+                                    <DiCss3 />&nbsp;&nbsp;&nbsp;CSS
+                                </div>
+                                <div>
+                                    <DiJavascript />&nbsp;&nbsp;&nbsp;JavaScript
+                                </div>
+                            </IconContext.Provider>
+                        </div>
                     </div>
-                </div>
-                <div className="row">
-                    <h3>Back-end techs</h3>
+                    <br />
+                    <br />
                     <div className="row">
-                        <IconContext.Provider value={{ color: "white", size: "3em" }}>
-                            <div>
-                                <DiJava /> Java(Springboot)
-                            </div>
-                            <div>
-                                <DiNodejs /> Nodejs(NestJS, Express)
-                            </div>
-                            <div>
-                                <DiDotnet /> C#
-                            </div>
+                        <h3>Back-end techs</h3>
+                        <div className="row" style={{ textAlign: "left" }}>
+                            <IconContext.Provider value={{ color: "white", size: "3em" }}>
+                                <div>
+                                    <DiJava />&nbsp;&nbsp;&nbsp;Java(Springboot)
+                                </div>
+                                <div>
+                                    <DiNodejs />&nbsp;&nbsp;&nbsp;Nodejs(NestJS, Express)
+                                </div>
+                                <div>
+                                    <DiDotnet />&nbsp;&nbsp;&nbsp;C#
+                                </div>
 
-                        </IconContext.Provider>
+                            </IconContext.Provider>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                <div className="row">
-                    <h4>Databases</h4>
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="row">
+                        <h4>Databases</h4>
+                        <div className="row" style={{ textAlign: "left" }}>
+                            <IconContext.Provider value={{ color: "white", size: "2em" }}>
+                                <div>
+                                    <DiMsqlServer />&nbsp;&nbsp;&nbsp;Microsoft SQL
+                                </div>
+                                <div>
+                                    <DiMysql />&nbsp;&nbsp;&nbsp;MySQL
+                                </div>
+                                <div>
+                                    <SiOracle />&nbsp;&nbsp;&nbsp;Oracle
+                                </div>
+                                <div>
+                                    <SiCouchbase />&nbsp;&nbsp;&nbsp;Couchbase
+                                </div>
+                                <div>
+                                    <DiMongodb />&nbsp;&nbsp;&nbsp;MongoDb
+                                </div>
+
+                            </IconContext.Provider>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div className="row">
+                        <h4>Cloud Services</h4>
+                        <div className="row" style={{ textAlign: "left" }}>
+                            <IconContext.Provider value={{ color: "white", size: "2em" }}>
+                                <div>
+                                    <SiMicrosoftazure />&nbsp;&nbsp;&nbsp;Azure
+                                </div>
+                                <div>
+                                    <SiIbmcloud />&nbsp;&nbsp;&nbsp;IBM Cloud
+                                </div>
+                                <div>
+                                    <SiGooglecloud />&nbsp;&nbsp;&nbsp;Google Cloud Platform
+                                </div>
+
+                            </IconContext.Provider>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                    <h4>Tools & Additional Technologies</h4>
+                    <div className="row" style={{ textAlign: "left" }}>
                         <IconContext.Provider value={{ color: "white", size: "2em" }}>
                             <div>
-                                <DiMsqlServer /> Microsoft SQL
+                                <DiDocker />&nbsp;&nbsp;&nbsp;Docker
                             </div>
                             <div>
-                                <DiMysql /> MySQL
+                                <SiKubernetes />&nbsp;&nbsp;&nbsp;Kubernetes
                             </div>
                             <div>
-                                <SiOracle /> Oracle
+                                <DiGit />&nbsp;&nbsp;&nbsp;Git
                             </div>
                             <div>
-                                <SiCouchbase /> Couchbase
+                                <DiJenkins />&nbsp;&nbsp;&nbsp;Jenkins
                             </div>
                             <div>
-                                <DiMongodb /> MongoDb
+                                <DiJira />&nbsp;&nbsp;&nbsp;Jira
+                            </div>
+                            <div>
+                                <SiGithubactions />&nbsp;&nbsp;&nbsp;Github Actions
                             </div>
 
                         </IconContext.Provider>
                     </div>
                 </div>
-                <div className="row">
-                    <h4>Cloud Services</h4>
-                    <div className="row">
-                        <IconContext.Provider value={{ color: "white", size: "2em" }}>
-                            <div>
-                                <SiMicrosoftazure /> Azure
-                            </div>
-                            <div>
-                                <SiIbmcloud /> IBM Cloud
-                            </div>
-                            <div>
-                                <SiGooglecloud /> Google Cloud Platform
-                            </div>
-
-                        </IconContext.Provider>
-                    </div>
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-                <h4>Tools & Additional Technologies</h4>
-                <div className="row">
-                        <IconContext.Provider value={{ color: "white", size: "2em" }}>
-                            <div>
-                                <DiDocker /> Docker
-                            </div>
-                            <div>
-                                <SiKubernetes /> Kubernetes
-                            </div>
-                            <div>
-                                <DiGit /> Git
-                            </div>
-                            <div>
-                                <DiJenkins /> Jenkins
-                            </div>
-                            <div>
-                                <DiJira /> Jira
-                            </div>
-                            <div>
-                                <SiGithubactions /> Github Actions
-                            </div>
-
-                        </IconContext.Provider>
-                    </div>
             </div>
         </div>
     )
