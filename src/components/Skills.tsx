@@ -14,7 +14,7 @@ function Skills() {
                     <div className="row">
                         <h5 style={{ textAlign: "left" }}>Front-end techs</h5>
                         <div className="row" style={{ textAlign: "left" }}>
-                            <IconContext.Provider value={{ color: "white", size: "3em" }}>
+                            <IconContext.Provider value={{ color: "white", size: "2em" }}>
                                 <div>
                                     <DiAngularSimple />&nbsp;&nbsp;&nbsp;Angular
                                 </div>
@@ -36,9 +36,9 @@ function Skills() {
                     <br />
                     <br />
                     <div className="row">
-                        <h3>Back-end techs</h3>
+                        <h5>Back-end techs</h5>
                         <div className="row" style={{ textAlign: "left" }}>
-                            <IconContext.Provider value={{ color: "white", size: "3em" }}>
+                            <IconContext.Provider value={{ color: "white", size: "2em" }}>
                                 <div>
                                     <DiJava />&nbsp;&nbsp;&nbsp;Java(Springboot)
                                 </div>
@@ -55,7 +55,7 @@ function Skills() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="row">
-                        <h4>Databases</h4>
+                        <h5>Databases</h5>
                         <div className="row" style={{ textAlign: "left" }}>
                             <IconContext.Provider value={{ color: "white", size: "2em" }}>
                                 <div>
@@ -80,7 +80,7 @@ function Skills() {
                     <br />
                     <br />
                     <div className="row">
-                        <h4>Cloud Services</h4>
+                        <h5>Cloud Services</h5>
                         <div className="row" style={{ textAlign: "left" }}>
                             <IconContext.Provider value={{ color: "white", size: "2em" }}>
                                 <div>
@@ -98,7 +98,7 @@ function Skills() {
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
-                    <h4>Tools & Additional Technologies</h4>
+                    <h5>Tools & Additional Technologies</h5>
                     <div className="row" style={{ textAlign: "left" }}>
                         <IconContext.Provider value={{ color: "white", size: "2em" }}>
                             <div>

@@ -12,9 +12,9 @@ function Projects({projectName, projectDetails, projectLink}){
             </div>
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-6">
-                    <button className="btn btn-primary ui-colors-bg-primary btn-grad">Live Preview</button> 
+                    <button className="btn ui-colors-bg-primary btn-grad">Live Preview</button> 
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-6">
+                <div className="col-lg-6 col-md-6 col-sm-6" style={{textAlign: "right"}}>
                     <button className="btn ui-colors-bg-secondary btn-grad-black">Check on Github</button> 
                 </div>
             </div>
